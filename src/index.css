@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-rasa: "Rasa", serif;
+    --font-merienda: "Merienda", serif;
+  }
+  .font-merienda {
+    font-family: var(--font-merienda);
+  }
+  .font-rasa {
+    font-family: var(--font-rasa);
+  }
+}
+
+body {
+  @apply m-0 box-border p-0;
+}
